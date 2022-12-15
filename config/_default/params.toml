@@ -1,10 +1,10 @@
 # Meta Data for SEO
 
 ## Homepage
-title = "Doks"
+title = "Ductype"
 titleSeparator = "-"
-titleAddition = "Modern Documentation Theme"
-description = "Doks is a Hugo theme for building secure, fast, and SEO-ready documentation websites, which you can easily update and customize."
+titleAddition = "A functional shell for UNIX"
+description = "A functional shell inspired by algebraic data types and UNIX, designed to make command-line scripting easier and more powerful."
 
 ## Documentation
 # docsVersion = "0.3"
