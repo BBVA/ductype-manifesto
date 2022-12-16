@@ -1,6 +1,6 @@
 ---
-title: "Introduction"
-description: "Doks is a Hugo theme for building secure, fast, and SEO-ready documentation websites, which you can easily update and customize."
+title: "About the UNIX shell tradition"
+description: "This is a WIP document about the design of Ductype"
 lead: "Doks is a Hugo theme for building secure, fast, and SEO-ready documentation websites, which you can easily update and customize."
 date: 2020-10-06T08:48:57+00:00
 lastmod: 2020-10-06T08:48:57+00:00
@@ -13,9 +13,7 @@ weight: 100
 toc: true
 ---
 
-# About the UNIX shell tradition
-
-## What we don't like
+# What we don't like
 
 1. It requires a lot of trying and error (or knowledge) to know what commands
    can be piped to what other commands.
@@ -65,4 +63,33 @@ toc: true
     You have to select the one you want by navigating a nightmarish set of
     arguments.
 19. Testing? Anyone?
+20. Limited to a text interface.
 
+
+# What we do like
+
+1. Faster than writing a program.
+2. Explorability is to the roof.  You can fail fast trying to solve a problem
+   or data transformation and iterate towards the solution like in no other
+   environment.  Other solutions like Jupyter Notebook and the like are trying
+   to do the same.
+3. The repl model forces you to adhere to a fire and forget model.  Making it
+   easier to write code that is a pure data transformation by nature.
+4. Pipes are the fastest way of high-level programming. Composability at its best.
+5. There are only a few programs that don't expose a command line interface.
+   You can interact with everything from security tools, to cloud providers, to
+   super computers, etc.
+6. If bash doesn't run you have a hardware problem.  Shells are not coupled to
+   the programs they use.
+7. Its obiquitous.
+8. Using only the keyboard makes you fast by default.
+9. The fastest feedback loop known to man.
+
+
+# Things that are and there are no other way
+
+1. A shell is like your best friend, drunk at 4am.  It will do whatever you
+   want immediately, it's super agreable.  If you screw up with writting the
+   command it will run it without questioning you.
+2. When you write a command or a script you cannot ask what would be the plan
+   before executing it.
