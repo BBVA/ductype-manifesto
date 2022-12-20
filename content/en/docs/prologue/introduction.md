@@ -111,3 +111,54 @@ toc: true
    command it will run it without questioning you.
 2. When you write a command or a script you cannot ask what would be the plan
    before executing it.
+
+
+# How our Principles guide us to solve this
+
+## Self Contained
+  The shell scripting language should be able to run without external dependencies.
+## Predictable
+  The shell scripting language should be structured and consistent, allowing for
+  reliable and expected behavior.
+## Reproducible
+  The shell scripting language should enable users to replicate results with minimal
+  effort.
+## Familiar
+  The shell scripting language should be intuitive, allowing users to quickly learn
+  and use the lenguage.
+## High level
+  The shell scripting language should abstract away the lower-level details, allowing
+  users to focus on the logic of their solution.
+## Typed
+  The shell scripting language should provide data type enforcement, ensuring that 
+  data is handled correclty and safely.
+
+## otras cosas a mirarnos
+*Nowadays human interfaces are more advanced that just plain text, a modern shell
+should be use them.
+
+## Organic growing produces a confusing structure
+
+The shell automatically typechecks the expressions you type, offering helpful 
+error messages.
+The language allows the use of namespaces to organize the space of programs.
+
+## Command line program output is not mean to be consumed by computers
+
+Every component in our shell has typed arguments, stdin, stdout and stderr.
+
+## There is just one way to compose programs and it doesn't solve all problems
+
+We have a high level set of composition primitives that allows us to build any
+kind of dataflow.
+
+## There is no composable way to bundle a script with all its dependencies to make it portable
+
+We use nix typed components, allow to be repoducible by itself. Therefore
+their compositions are.
+
+## Shell script development is painful
+
+The shell has typechecks that help you out with program development.
+Several High level tools can help you to test your program.
+The nix flakes feat can make new versions of your sofware easily.
